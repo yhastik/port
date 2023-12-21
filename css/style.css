@@ -136,6 +136,7 @@ body .Ptflo a{
     box-shadow: 0px 0px 30px 10px black;
     background-color: rgb(218, 218, 218);
     width: 500px;
+    cursor: pointer;
     height: 50px;
     font-size: 30px;
     display: flex;
