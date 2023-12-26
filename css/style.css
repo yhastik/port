@@ -57,7 +57,7 @@ body .glav{
     background-color: rgb(218, 218, 218);
     text-align: center;
 }
-body .container{
+body #container{
     margin-top: 100px;
     margin-bottom: 50px;
     display: flex;
