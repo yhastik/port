@@ -58,8 +58,8 @@ body .glav{
     text-align: center;
 }
 body .container{
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
 }
