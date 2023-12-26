@@ -46,7 +46,7 @@ header .nav ul{
 
 
 
-body .glav{
+.body .glav{
     box-shadow: 0px 0px 15px 10px black;
     margin-bottom: 20px;
     display: flex;
@@ -57,13 +57,13 @@ body .glav{
     background-color: rgb(218, 218, 218);
     text-align: center;
 }
-body #container{
+.body #container{
     margin-top: 100px;
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
 }
-body .Im{
+.body .Im{
     background-image: url(/image/fon_body.jpg);
     width: 100%;
     background-repeat: no-repeat;
@@ -77,12 +77,12 @@ body .Im{
     justify-content: center;
     align-items: center;
 }
-body .my_foto{
+.body .my_foto{
     border-radius: 6%;
     box-shadow: 0px 0px 30px 10px black;
     width: 500px;
 }
-body .my_info{
+.body .my_info{
     padding: 30px;
     border-radius: 6%;
     background-color: rgb(218, 218, 218);
@@ -93,12 +93,12 @@ body .my_info{
     font-size: 30px;
     margin-left: 50px;
 }
-body .my_info h2{
+.body .my_info h2{
     text-align: left;
 }
 
 
-body .Ptflo{
+.body .Ptflo{
     padding-top: 50px;
     width: 100%;
     background-image: url(/image/fon_body2.jpg);
@@ -112,13 +112,13 @@ body .Ptflo{
 
     
 }
-body .img_project{
+.body .img_project{
     padding-top: 20px;
     margin: 0 auto;
     border-radius: 30px;
     width: 1400px;
 }
-body .Ptflo h3{
+.body .Ptflo h3{
     padding: 15px;
     border-radius: 15px;
     box-shadow: 0px 0px 30px 10px black;
@@ -128,12 +128,12 @@ body .Ptflo h3{
     text-align: center;
     font-size: 40px;
 }
-body .Ptflo .project{
+.body .Ptflo .project{
     display: flex;
     flex-direction: column;
 }
 
-body .Ptflo a{
+.body .Ptflo a{
     box-shadow: 0px 0px 30px 10px black;
     background-color: rgb(218, 218, 218);
     width: 500px;
@@ -151,33 +151,33 @@ body .Ptflo a{
     margin-bottom: 50px;
     transition: all 0.3s ease;    
 }
-body .Ptflo a:hover{
+.body .Ptflo a:hover{
     background-color: rgb(182, 182, 182);
     transform: scale(1.2);
     
 }
 
 
-footer .foot{
+.footer .foot{
     display: flex;
     justify-content: center;
     height: 200px;
     margin-bottom: 200px;
 }
 
-footer form{
+.footer form{
     display: flex;
     flex-direction: column;
 }
-footer form label{
+.footer form label{
     font-size: 30px;
     margin-right: 15px;
 }
-footer .form{
+.footer .form{
     display: flex;
     gap: 30px;
 }
-footer .form input{
+.footer .form input{
     padding-left: 20px;
     height: 50px;
     box-shadow: 0px 0px 30px 1px black;
@@ -185,11 +185,11 @@ footer .form input{
     border: none;
     background-color: rgb(218, 218, 218);
 }
-footer form .obh label{
+.footer form .obh label{
     display: flex;
     justify-content: center;
 }
-footer form .obh input[type="text"]{
+.footer form .obh input[type="text"]{
     padding-left: 20px;
     box-shadow: 0px 0px 30px 1px black;
     margin-bottom: 20px;
@@ -200,7 +200,7 @@ footer form .obh input[type="text"]{
     display: flex;
     background-color: rgb(218, 218, 218);
 }
-footer .foot form button{
+.footer .foot form button{
     padding: 10px;
     border-radius: 15px;
     border: none;
@@ -208,7 +208,18 @@ footer .foot form button{
     box-shadow: 0px 0px 30px 1px black;
     transition: all 0.3s ease;
 }
-footer .foot form button:hover{
+.footer .foot form button:hover{
     transform: scale(1.1);
     background-color: rgb(182, 182, 182);
+}
+.footer .glav{
+    box-shadow: 0px 0px 15px 10px black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 30px;
+    background-color: rgb(218, 218, 218);
+    text-align: center;
 }
